@@ -1,0 +1,63 @@
+.h-img{
+  width: 150%;
+}
+.doc-position
+{
+  position: relative;
+  top: 50px;
+  left: 10px;
+}
+.m-size
+{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.txt-blue
+{
+  color: #09c;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.arrow
+{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height:40px;
+    background-color: #0078ff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .4s;
+    text-decoration: none;
+}
+
+.arrow i
+{
+    color: white;
+    font-size: 18px;
+}
+@media only screen and (max-width: 400px) {
+  .h-img
+      {
+        display: none;
+      }
+      .text-repo
+      {
+        font-size: 22px;
+        margin-top: 25px;
+      }
+}
+
+@media only screen and (max-width: 754px) {
+  .h-img
+      {
+        width: 100%;
+        margin-top: 20px;
+      }
+
+}

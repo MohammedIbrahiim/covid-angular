@@ -1,0 +1,25 @@
+.box
+{
+  border-radius: 20px;
+  box-shadow: 2px 3px 4px 0px grey;
+  padding: 30PX;
+}
+.box2
+{
+  border-radius: 2px;
+  box-shadow: -2px -3px 7px 2px grey;
+  border-radius: 20px;
+}
+a{
+  text-decoration: none;
+}
+.card
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    border-radius: 16px;
+}

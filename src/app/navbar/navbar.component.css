@@ -1,0 +1,17 @@
+.active
+{
+  background-color: aquamarine;
+  color: rgb(32, 30, 30) !important;
+  border-radius: 20px;
+}
+.navbar
+{
+  box-shadow: 5px 0px 7px 0px;
+  padding: 18px;
+
+}
+.txt-blue
+{
+  color: #09c;
+  font-weight: bold;
+}
